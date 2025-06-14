@@ -1,6 +1,6 @@
 # Ticketmaster Alert
 
-A TypeScript-based tool to monitor Ticketmaster for resale ticket availability. Uses Playwright to bypass Ticketmaster's anti-scraping protections and provides desktop notifications when tickets become available.
+A TypeScript-based tool to monitor Ticketmaster for resale ticket availability.
 
 > 🤘 **METAL MISSION ACCOMPLISHED**: This bot successfully helped me score tickets to Black Sabbath's "Back to the Beginning" reunion show when they were sold out everywhere!
 
