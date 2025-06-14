@@ -2,6 +2,8 @@
 
 A TypeScript-based tool to monitor Ticketmaster for resale ticket availability. Uses Playwright to bypass Ticketmaster's anti-scraping protections and provides desktop notifications when tickets become available.
 
+> 🤘 **METAL MISSION ACCOMPLISHED**: This bot successfully helped me score tickets to Black Sabbath's "Back to the Beginning" reunion show when they were sold out everywhere!
+
 ## Features
 
 - Monitors Ticketmaster event pages for verified resale tickets
@@ -63,3 +65,10 @@ You can modify the following variables in `src/config.ts` to configure the tool:
 - Playwright v1.40.0 or higher
 - ntfy.sh url
 
+## Success Story
+
+When Black Sabbath announced their "Back to the Beginning" reunion tour, tickets sold out in minutes. Instead of manually logging in or giving up, I created this automated sentinel to watch Ticketmaster day and night.
+
+After running quietly in the background for weeks, the bot's notification finally came through at the perfect moment - someone had just listed their tickets at face value! Thanks to instant notifications and automatic browser opening, I was able to grab them before anyone else.
+
+*"Never Say Die" - Black Sabbath*
