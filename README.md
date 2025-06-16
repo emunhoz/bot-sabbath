@@ -48,6 +48,59 @@ ticketmaster-alert/
    bun start
    ```
 
+## Docker Setup
+
+You can also run this application in a Docker container, which provides isolation and handles all dependencies automatically.
+
+### Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/) installed on your system
+
+### Steps to Run with Docker
+
+1. Build the Docker image:
+   ```bash
+   docker build -t bot-sabbath .
+   ```
+
+2. Run the container:
+   ```bash
+   docker run -p 3333:3333 bot-sabbath
+   ```
+
+3. To stop the container:
+   ```bash
+   # Find the container ID
+   docker ps
+   
+   # Stop the container
+   docker stop <container-id>
+   ```
+
+### Docker Compose (Alternative)
+
+Alternatively, you can use Docker Compose for a simpler workflow:
+
+1. Create a `docker-compose.yml` file with:
+   ```yaml
+   version: '3'
+   services:
+     bot-sabbath:
+       build: .
+       ports:
+         - "3333:3333"
+   ```
+
+2. Start with Docker Compose:
+   ```bash
+   docker-compose up
+   ```
+
+3. Stop with Docker Compose:
+   ```bash
+   docker-compose down
+   ```
+
 ## Configuration
 
 You can modify the following variables in `src/config.ts` to configure the tool:

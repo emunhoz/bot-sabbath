@@ -13,6 +13,7 @@ export async function launchBrowser(): Promise<Browser> {
   console.log('Launching browser...');
   return chromium.launch({
     headless: config.HEADLESS,
+    executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH || undefined,
     args: [
       '--disable-features=site-per-process',
       '--disable-web-security',
