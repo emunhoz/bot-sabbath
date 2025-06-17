@@ -1,6 +1,6 @@
 # Ticketmaster Alert
 
-A TypeScript-based tool to monitor Ticketmaster for resale ticket availability. Uses Playwright to bypass Ticketmaster's anti-scraping protections and provides desktop notifications when tickets become available.
+A TypeScript-based tool to monitor Ticketmaster for resale ticket availability. Uses Playwright to bypass Ticketmaster's anti-scraping protections and provides notifications (via ntfy) when tickets become available.
 
 > 🤘 **METAL MISSION ACCOMPLISHED**: This bot successfully helped me score tickets to Black Sabbath's "Back to the Beginning" reunion show when they were sold out everywhere!
 
@@ -116,7 +116,7 @@ You can modify the following variables in `src/config.ts` to configure the tool:
 - Node.js v20.10.4 or higher
 - Bun v1.1.56 or higher
 - Playwright v1.40.0 or higher
-- ntfy.sh url
+- ntfy.sh url and app (to receive notifications)
 
 ## Success Story
 
